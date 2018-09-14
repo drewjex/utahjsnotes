@@ -1,0 +1,11 @@
+Tejas Kumar - works for Contiamo in Berlin "JS is your bro"
+JS - one of the most accessible and welcoming languages we have
+1) Dynamic Types - easier to pick up, don't need to worry about types - also shows need for static types
+2) Declarative APIS (ex window.giveMeSuperPowers()) - trust JS to do a lot of hard work for you
+3) JS often coupled with the DOM - creates confusion (aka using window. in a nodejs environment)
+4) Backwards Compatible (ES3 > 4 > 5 > 6 > 2016 > 201*) - valid ES5 is valid ES6
+5) Open Specification - full transparent on github
+6) Full Stack Language - pretty unique, IofT, DB, backend, frontend, everything
+7) Portable - Web Assembly - made JS faster and able to run big apps that are universal
+8) You can't - you can - a lot of people can do it regardless of background, circumstance
+JS is a culture, not just a language "Always bet on JS"

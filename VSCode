@@ -1,0 +1,8 @@
+npm install -g yo code-generator
+yo code
+
+to package:
+npm install -g vsce
+vsce package
+
+https://tinyurl.com/UtahJS18Lucidcode - to get updates

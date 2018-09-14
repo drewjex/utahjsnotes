@@ -1,0 +1,10 @@
+John Mills...?
+Microsoft MVP, JS Expert
+
+Solid - stop worrying about the right way to do something
+
+Single Responsibility "A class should have one reason/thing to change" 
+Open/Close - open for extension, closed for modification
+Liskov Substitution (ex square and rectangle - which inherits from whic? rect => square), so q(Rectangle) = q(Square), you can do it.
+Interface Segregation - splitting interfaces into smaller, more specific ones that will only know about things it needs (KISS) (Facade pattern)
+Dependency Inversion - High level modules should not depend on low level modules - both should depend on abstractions - think of React - presentational components shouldn't know anything, it just receives props and does it.

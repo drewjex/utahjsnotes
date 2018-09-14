@@ -1,0 +1,22 @@
+telebit.cloud - take a look - reverse VPN essentially
+access devices - share your stuff - host website from an airplane or whereever (get out of localhost)
+peer to peer apps
+all under https:
+Socks5 (lets you in, but nobody else)- could use to watch netflix videos from home computer while you're in europe
+OpenVPN
+SSH
+DHT
+
+Web Protocols are great
+Check out Greenlock (nodejs - this guy made it)
+tunnel everything over https (web, vpn, everything)
+
+web is easy, tcp is not easy
+Telebit - take a look!
+
+Get PI3, run these commands:
+telebit
+telebit ssh auto (after install)
+telebit http
+
+need a relay to provide that https private peer to peer connection

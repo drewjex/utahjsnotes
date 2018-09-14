@@ -1,0 +1,18 @@
+Michael Trotter
+
+"avoid global state" - specifically mutable data, right?
+
+problem 1 - mutability hides change - (the history is removed)
+ - ways to catch: function that doesn't return anything... that should be standard most of the time
+ - you shouldn't be mutating "unowned" state!
+ - reading from mutable state (ex Date.now()) also bad or reading anything from the DOM is reading mutable state
+  -- need to sometimes, so pull out of business logic into something higher level
+ - idempotence - avoid if you can
+
+ problem 3 - mutability adds time-dependent behavior (order matters) - increased coupling = bad
+  - usually can fix by RETURNING values
+  - bad if you read/write anything you don't own (ex getting a parameter from some outside place)
+
+see FP to the Max, Fantasy Land
+
+checkout mdx-deck

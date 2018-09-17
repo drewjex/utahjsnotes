@@ -1,3 +1,6 @@
 1. Because it's JSX and not HTML - className is a property on a div DOM element. That's why.
 - DOM elements have attributes and properties. attributes are part of the html tag, properties are only accessible in JS.
-2. 
+2. marginTop instead of margin-top? Because marginTop is the JS property on the DOM element ngay. (same answer as #1)
+3. 
+
+Remember: everything boils down to dealing with className and style properties on DOM element.
